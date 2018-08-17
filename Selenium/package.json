@@ -1,0 +1,10 @@
+{
+  "name": "module-01",
+  "version": "0.0.0",
+  "private": true,
+
+  "dependencies": {
+    "selenium-webdriver": "3.0.0",
+    "mocha": "3.0.0-2"
+  }
+}
