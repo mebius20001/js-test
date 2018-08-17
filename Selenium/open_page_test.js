@@ -31,12 +31,11 @@ test.describe('Google Search', function() {
 
 
   test.it('should append querry to title', function() {
-    driver.get('http://www.google.com');
-    driver.findElement(By.name('q')).sendKeys('webdriver');
-
-    //driver.findElement(By.name('btnG')).click();
-    //driver.wait(until.titleIs('webdriver - Google Search'), 1000);
+    driver.get('https://www.google.ru/maps/');
   });
 
-  test.after(function() {driver.quit()} );
+  test.after(function() {
+    driver.quit()
+  } );
+
 });
