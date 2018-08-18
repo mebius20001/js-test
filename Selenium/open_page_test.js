@@ -30,11 +30,8 @@ test.describe('Google Search', function() {
   });
 
 
-  test.it('should append querry to title', function*() {
-    driver.get('http://localhost/litecart/admin/');
-    driver.findElement(By.name('username')).sendKeys('admin');
-    driver.findElement(By.name('password')).sendKeys('admin');
-    driver.findElement(By.name('login')).click();
+  test.it('should append querry to title', function() {
+    driver.get('https://www.google.ru/maps/');
   });
 
   test.after(function() {
